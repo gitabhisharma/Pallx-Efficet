@@ -3,18 +3,16 @@
     padding: 0;
 }
 #wrapContant{
-    width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    overflow-y: auto;
     perspective: 10px;
 }
 .Mant,
 .man{
     position: absolute;
-    height: 100vh;
-    width: 100vw;
     z-index: -1;
-    object-fit: cover;
+    
 }
 .contaner{
     position: relative;
@@ -22,5 +20,17 @@
     justify-content: center;
     align-items: center;
     transform-style: preserve-3d; 
+}
+.Mant{
+    height: 150vh;
+    transform: translateZ(-40px) scale(5);
+}
+.man{
+    height: 100vh;
+    transform: translateZ(-20px) scale(3);
+}
+#ADVENTURE{
+    font-size: x-large;
+    color: white;
 }
 
