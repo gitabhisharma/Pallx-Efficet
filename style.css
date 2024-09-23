@@ -26,11 +26,12 @@
     transform: translateZ(-40px) scale(5);
 }
 .man{
+    width: 100%;
     height: 100vh;
+    margin-top: 100%;
     transform: translateZ(-20px) scale(3);
 }
 #ADVENTURE{
-    font-size: x-large;
     color: white;
 }
 
