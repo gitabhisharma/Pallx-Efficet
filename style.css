@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 #wrapContant{
     height: 100vh;
@@ -12,7 +13,6 @@
 .man{
     position: absolute;
     z-index: -1;
-    
 }
 .contaner{
     position: relative;
@@ -32,6 +32,9 @@
     transform: translateZ(-20px) scale(3);
 }
 #ADVENTURE{
-    color: white;
+    margin-top: 35vh;
+    color:white;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
